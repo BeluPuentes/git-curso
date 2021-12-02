@@ -10,15 +10,19 @@ header{
 
 .subtitulo{
     text-align: center;
+    color: white;
 }
 
 #margen{
   margin: 20px;
 }
 .background{
-    background-color:lightgrey;
+    background-color:black;
 }
 
+p{
+  color: white;
+}
 
 
 #achicar{
@@ -344,3 +348,12 @@ header {
   margin: 0 auto;
   display: block;
 }
+
+aside{
+  color: white;
+}
+
+label{
+  color: white;
+}
+
