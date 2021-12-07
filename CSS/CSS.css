@@ -119,7 +119,7 @@ header {
     margin: 0;
 }
 
-  @media (max-width: 599px){
+@media (max-width: 599px){
     body {
         font-size: 0.75rem;
     }
