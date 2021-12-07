@@ -277,27 +277,29 @@ header {
 
   .restaurantes {
     height: 500px;
-    width: 1000px;
+    width: 900px;
     display:block;
     margin:auto;
     
   }
 
+
+
   .div-imagen {
     display:inline-block;
     position:relative;
     text-align: center;
-
   }
   
-  .div-imagen > div {
+  .div-imagen > p  {
     position:absolute;
-    top:0;
+    top:5px;
     left:0;
     z-index:-1;
-    padding:10px;
+    padding:20px;
     margin:0;
     text-align: center;
+    
   }
   
   .desvanecer:hover {
@@ -343,4 +345,10 @@ header {
   height: auto;
   margin: 0 auto;
   display: block;
+}
+.imagenRestaurantes {
+  float: left;
+  width:  297px;
+  height: 183px;
+  object-fit: cover;
 }
