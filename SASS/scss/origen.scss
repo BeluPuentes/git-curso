@@ -2,10 +2,11 @@
 .titulo{
     text-align: center;
     font-weight: bold;
+    font-family: 'Bungee';
 }
 
 .fontNS{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', 'sans-serif';
 }
 
 @mixin tamanio($anchura, $altura) {
