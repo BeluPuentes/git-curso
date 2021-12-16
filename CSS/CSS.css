@@ -123,6 +123,75 @@ header {
     body {
         font-size: 0.75rem;
     }
+    
+    iframe {
+      width: 60%;
+      height:50%;
+    }
+    #achicar{
+      width: 88%;
+      height: 200px;
+      display: block;
+      margin: auto;
+    
+    }
+    .restaurantes {
+      height: 49%;
+      width: 88%;
+      display:block;
+      margin:auto;
+      
+    }  
+    .div-imagen {
+      display:inline-block;
+      position:relative;
+      text-align: center;
+    }
+    
+    .div-imagen > p  {
+      position:absolute;
+      top:5px;
+      left:0;
+      z-index:-1;
+      padding:20px;
+      margin:0;
+      text-align: center;
+      
+    }
+    
+    .desvanecer:hover {
+      opacity: 0.07;
+      -webkit-transition: opacity 500ms;
+      -moz-transition: opacity 500ms;
+      -o-transition: opacity 500ms;
+      -ms-transition: opacity 500ms;
+      transition: opacity 500ms;
+    }
+    .bandera{
+      height: 13%;
+      width: 20%;
+      float: right;
+    }
+    .bandera:hover{
+      border-radius:50%;
+      -webkit-border-radius:50%;
+      box-shadow: 0px 0px 15px 15px darkblue;
+      -webkit-box-shadow: 0px 0px 15px 15px darkblue;
+      -webkit-transform: rotate(360deg);
+      animation: rotation 5s linear infinite;
+      -moz-animation: rotation 5s linear infinite;
+      -webkit-animation: rotation 5s linear infinite;
+      -o-animation: rotation 5s linear infinite;
+    }
+    @keyframes rotation{
+      0% {
+        -webkit-transform: rotate(0deg);
+      }
+      50% {
+        -webkit-transform: rotate(360deg);
+      }
+    }
+  
     .gridFotos {
         max-width: 800px;
         padding: 1rem;
@@ -161,6 +230,75 @@ header {
     body {
         font-size: 1rem;
     }
+   
+    iframe {
+      width: 560px;
+      height:315px;
+    }
+    #achicar{
+      width: 88%;
+      height: auto;;
+      display: block;
+      margin: auto;
+    
+    }
+    .restaurantes {
+      height: 49%;
+      width: 88%;
+      display:block;
+      margin:auto;
+      
+    }
+    .div-imagen {
+      display:inline-block;
+      position:relative;
+      text-align: center;
+    }
+    
+    .div-imagen > p  {
+      position:absolute;
+      top:5px;
+      left:0;
+      z-index:-1;
+      padding:20px;
+      margin:0;
+      text-align: center;
+      
+    }
+    
+    .desvanecer:hover {
+      opacity: 0.07;
+      -webkit-transition: opacity 500ms;
+      -moz-transition: opacity 500ms;
+      -o-transition: opacity 500ms;
+      -ms-transition: opacity 500ms;
+      transition: opacity 500ms;
+    }
+    .bandera:hover{
+      border-radius:50%;
+      -webkit-border-radius:50%;
+      box-shadow: 0px 0px 15px 15px darkblue;
+      -webkit-box-shadow: 0px 0px 15px 15px darkblue;
+      -webkit-transform: rotate(360deg);
+      animation: rotation 5s linear infinite;
+      -moz-animation: rotation 5s linear infinite;
+      -webkit-animation: rotation 5s linear infinite;
+      -o-animation: rotation 5s linear infinite;
+    }
+    .bandera{
+      height: 13%;
+      width: 20%;
+      float: right;
+    }
+    @keyframes rotation{
+      0% {
+        -webkit-transform: rotate(0deg);
+      }
+      50% {
+        -webkit-transform: rotate(360deg);
+      }
+    }
+  
     .gridFotos {
         max-width: 800px;
         padding: 1rem;
@@ -199,6 +337,80 @@ header {
     body {
         font-size: 1.25rem;
     }
+    .video {
+      width: 50%;
+      height: auto;
+      margin: 0 auto;
+      display: block;
+    }
+    iframe {
+      width: 560px;
+      height:315px;
+    }
+    #achicar{
+      width: 900px;
+      height: 400px;
+      display: block;
+      margin: auto;
+    
+    }
+    .restaurantes {
+      height: 500px;
+      width: 900px;
+      display:block;
+      margin:auto;
+      
+    }
+    .div-imagen {
+      display:inline-block;
+      position:relative;
+      text-align: center;
+    }
+    
+    .div-imagen > p  {
+      position:absolute;
+      top:5px;
+      left:0;
+      z-index:-1;
+      padding:20px;
+      margin:0;
+      text-align: center;
+      
+    }
+    
+    .desvanecer:hover {
+      opacity: 0.07;
+      -webkit-transition: opacity 500ms;
+      -moz-transition: opacity 500ms;
+      -o-transition: opacity 500ms;
+      -ms-transition: opacity 500ms;
+      transition: opacity 500ms;
+    }
+    .bandera:hover{
+      border-radius:50%;
+      -webkit-border-radius:50%;
+      box-shadow: 0px 0px 15px 15px darkblue;
+      -webkit-box-shadow: 0px 0px 15px 15px darkblue;
+      -webkit-transform: rotate(360deg);
+      animation: rotation 5s linear infinite;
+      -moz-animation: rotation 5s linear infinite;
+      -webkit-animation: rotation 5s linear infinite;
+      -o-animation: rotation 5s linear infinite;
+    }
+    .bandera{
+      height: 130px;
+      width: 200px;
+      float: right;
+    }
+    @keyframes rotation{
+      0% {
+        -webkit-transform: rotate(0deg);
+      }
+      50% {
+        -webkit-transform: rotate(360deg);
+      }
+    }
+  
     .gridFotos {
         max-width: 800px;
         padding: 1rem;
@@ -242,30 +454,8 @@ header {
   }
  
 
-  .bandera:hover{
-    border-radius:50%;
-    -webkit-border-radius:50%;
-    box-shadow: 0px 0px 15px 15px darkblue;
-    -webkit-box-shadow: 0px 0px 15px 15px darkblue;
-    -webkit-transform: rotate(360deg);
-    animation: rotation 5s linear infinite;
-    -moz-animation: rotation 5s linear infinite;
-    -webkit-animation: rotation 5s linear infinite;
-    -o-animation: rotation 5s linear infinite;
-  }
-  .bandera{
-    height: 130px;
-    width: 200px;
-    float: right;
-  }
-  @keyframes rotation{
-    0% {
-      -webkit-transform: rotate(0deg);
-    }
-    50% {
-      -webkit-transform: rotate(360deg);
-    }
-  }
+ 
+
   footer{
     text-align: center;
     font-size: small;
@@ -275,42 +465,7 @@ header {
     margin: 10px;
   }
 
-  .restaurantes {
-    height: 500px;
-    width: 900px;
-    display:block;
-    margin:auto;
-    
-  }
-
-
-
-  .div-imagen {
-    display:inline-block;
-    position:relative;
-    text-align: center;
-  }
-  
-  .div-imagen > p  {
-    position:absolute;
-    top:5px;
-    left:0;
-    z-index:-1;
-    padding:20px;
-    margin:0;
-    text-align: center;
-    
-  }
-  
-  .desvanecer:hover {
-    opacity: 0.07;
-    -webkit-transition: opacity 500ms;
-    -moz-transition: opacity 500ms;
-    -o-transition: opacity 500ms;
-    -ms-transition: opacity 500ms;
-    transition: opacity 500ms;
-  }
-
+ 
   .foto1 {
      padding: 10px; 
      margin: 10px;  
@@ -340,12 +495,7 @@ header {
   background-color: #555555;
 }
 
-.video {
-  width: 50%;
-  height: auto;
-  margin: 0 auto;
-  display: block;
-}
+
 .imagenRestaurantes {
   float: left;
   width:  297px;
